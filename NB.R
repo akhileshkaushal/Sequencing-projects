@@ -48,7 +48,7 @@ for (i in 1:length(unlist(file_list2))){
   
   data2<-read.table(file_list2[i],header=F,sep="\t",check.names=F,strip.white=T)
   
-  data = data2[which(data2[,5]==1),]
+  data = data2[which(data2[,6]==1),]
   
   write.table(data,file=paste(file_path_sans_ext(file_list2[i]),"_NB_wo_zeros.bed"),sep="\t",row.names=F,col.names=F,quote=F)
   
