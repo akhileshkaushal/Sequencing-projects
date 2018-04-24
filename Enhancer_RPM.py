@@ -39,8 +39,8 @@ class RPM_SCORE:
        
         parser.add_argument('-t1','--trackFilePattern1', help='pattern of tracks BED files',required=True)
         parser.add_argument('-t2','--trackFilePattern2', help='pattern of tracks dedup files',required=True)
-        parser.add_argument('-d','--outDir', help='output directory',required=True)
-        parser.add_argument('-o','--outfile', help='[OPTIONAL] output file name for overlap summary',required=None)
+        #parser.add_argument('-d','--outDir', help='output directory',required=True)
+        #parser.add_argument('-o','--outfile', help='[OPTIONAL] output file name for overlap summary',required=None)
        
         try:
            args = parser.parse_args()
@@ -55,17 +55,17 @@ class RPM_SCORE:
         """   
         sys.stderr.write("["+str(datetime.datetime.now())+"] setupAnalysis START \n")
         
-        os.system("mkdir -p "+self.myArgs.outDir)
+        #os.system("mkdir -p "+self.myArgs.outDir)
          # Check if the scratch directory exist
-        if not os.path.isdir(self.myArgs.outDir):
-            sys.exit('Error: Output directory '+self.myArgs.outDir+' does not exist!\n')
+        #if not os.path.isdir(self.myArgs.outDir):
+            #sys.exit('Error: Output directory '+self.myArgs.outDir+' does not exist!\n')
         
-        sys.stderr.write("["+str(datetime.datetime.now())+"] setupAnalysis STOP \n")
+        #sys.stderr.write("["+str(datetime.datetime.now())+"] setupAnalysis STOP \n")
         
-        if (self.myArgs.outfile==None ) :
-          self.myArgs.outfile = str("summary_non-overlap.xls")
-        else:
-          self.myArgs.outfile= self.myArgs.outfile
+        #if (self.myArgs.outfile==None ) :
+          #self.myArgs.outfile = str("summary_non-overlap.xls")
+        #else:
+          #self.myArgs.outfile= self.myArgs.outfile
     
     
     def calculate_rpm(self):
