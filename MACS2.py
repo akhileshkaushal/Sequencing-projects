@@ -29,8 +29,7 @@ class MACS2_CALL:
     def parse_args():
         parser = argparse.ArgumentParser(description=
          """\
-          Utility that computes non-overlap between all combinations of input bed files\n
-          and outputs the non-overlap bed files and csv file contining the log2FC for each non-overlap\n
+          Utility to identify peaks using MACS2 for multiple tracsks \n
           * Load a number of BED files (usually ChIP-Seq, ATAC-Seq, MeDIP-Seq, Chipmentation, etc)
           * TODO: ...
          """)
