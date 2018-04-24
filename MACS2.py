@@ -72,6 +72,7 @@ class MACS2_CALL:
         """
         for trackFile in (trackFileList):
             OUT_NAME = trackFile.split(".")[0]+"_q_0.01"
+            gene_name = self.myArgs.genome
             if (self.DEBUG_TrackCoverage):
                 sys.stderr.write("["+str(datetime.datetime.now())+"] Getting peaks for file "+trackFile+"\n")
             
@@ -85,9 +86,9 @@ class MACS2_CALL:
                       
             else:
                 if (self.myArgs.inputfile==None):
-                     str1='macs2 callpeak -t '+ trackFile +' -n '+ OUT_NAME + ' -q 0.01 ' + ' -g mm '
+                     str1='macs2 callpeak -t '+ trackFile +' -n '+ OUT_NAME + ' -q 0.01 ' + ' -g ' + gene_name
                 else:
-                      str1='macs2 callpeak -t '+ trackFile + ' -c ' + inputfile + ' -n '+ OUT_NAME + ' -q 0.01 ' + ' -g mm '
+                     str1='macs2 callpeak -t '+ trackFile + ' -c ' + inputfile + ' -n '+ OUT_NAME + ' -q 0.01 ' + ' -g ' + gene_name
                 
             #process1 = subprocess.Popen([str1], stdout = subprocess.PIPE)
             if (self.DEBUG_TrackCoverage):
