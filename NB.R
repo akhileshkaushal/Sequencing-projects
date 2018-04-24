@@ -26,7 +26,7 @@ for (i in 1:length(unlist(file_list1))){
   #head(data1)
   x1<-ceiling(data1[,5])
   x1_nb<-fitdistr(x1,"Negative Binomial")
-  x1_nb
+  #x1_nb
   #pnbinom(0.975, size=x1_nb[1]$estimate["size"], mu=x1_nb[1]$estimate["mu"], lower.tail=T)
   data1$percentiles <- round(pnbinom(x1, size=x1_nb[1]$estimate["size"], mu=x1_nb[1]$estimate["mu"], lower.tail=T),digits=5)
   score_97.5<-qnbinom(0.975, size=x1_nb[1]$estimate["size"], mu=x1_nb[1]$estimate["mu"], lower.tail=T)
