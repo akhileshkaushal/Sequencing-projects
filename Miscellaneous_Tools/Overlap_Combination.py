@@ -107,7 +107,7 @@ class Overlap_Combination:
         """
             Use BEDTOOLS INTERSECT to generate overlap signal between tracks.
         """
-        ##Two lines Added by Akhilesh
+        
         #out_coverage = self.myArgs.outfile
         #out_coverage_writer = open(out_coverage,'wb')
         
@@ -152,7 +152,6 @@ class Overlap_Combination:
             if (self.DEBUG_TrackCoverage):
                 sys.stderr.write("["+str(datetime.datetime.now())+"] Getting Overlap for file "+trackFile1+" and  "+trackFile2+"\n")
              
-            ##Understand this area_Akhilesh   
             outCoverageFile = os.path.join(self.myArgs.outDir,os.path.basename(trackFile1)+"."+os.path.basename(trackFile2)+".intersect.bed")
             str2='bedtools intersect -a '+ trackFile1 + ' -b '+ trackFile2 + ' -wa ' + ' -wb ' ' > ' + outCoverageFile
             if (self.DEBUG_TrackCoverage):
