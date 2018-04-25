@@ -31,7 +31,7 @@ for (i in 1:length(unlist(file_list1))){
   data1$percentiles <- round(pnbinom(x1, size=x1_nb[1]$estimate["size"], mu=x1_nb[1]$estimate["mu"], lower.tail=T),digits=5)
   score_97.5<-qnbinom(0.975, size=x1_nb[1]$estimate["size"], mu=x1_nb[1]$estimate["mu"], lower.tail=T)
   data1$Super_Enhancer <- ifelse(data1[,5]>score_97.5,1,0)
-  data1$Super_Enhancer <- trim(data1$Super_Enhancer)
+  #data1$Super_Enhancer <- trim(data1$Super_Enhancer)
   data1 <- colwise(trim)(data1)
   #data1=data1[order(-data1[,5]),]
   #data2=data1[,-4]
