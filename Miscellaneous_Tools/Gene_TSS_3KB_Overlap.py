@@ -42,10 +42,12 @@ class Genes_TSS:
         
         if (self.myArgs.outfile1==None ) :
           self.myArgs.outfile1 = self.myArgs.infile1 +"_Overlap.bed"
+        else:
           self.myArgs.outfile1 = self.myArgs.outfile1
           
         if (self.myArgs.outfile2==None ) :
           self.myArgs.outfile2 = self.myArgs.infile2 +"_Overlap.bed"
+        else:
           self.myArgs.outfile2 = self.myArgs.outfile2
    
     def overlap(self):  
