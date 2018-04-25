@@ -5,10 +5,10 @@ Super Enhancer identification in this project is based upon the method described
 
 Steps involved in identification of Super Enahncers:
 
-(1) Using "*MACS2.py*" to call peaks genome-wide in the aligned H3K27Ac read data using the aligned IP bed file as the ChIP-seq foreground and the aligned IN bed file (if available) as the control background data. FDR cutoff of 0.01 was used to call the peaks.
+(1) Using `"*MACS2.py*"` to call peaks genome-wide in the aligned H3K27Ac read data using the aligned IP bed file as the ChIP-seq foreground and the aligned IN bed file (if available) as the control background data. FDR cutoff of 0.01 was used to call the peaks.
 
-(2) Identified peaks were then merged together if they had less than or equal to 12,500 base pairs between them using "*Merging_Narrowpeak_within_12.sh*" script. The script also produces a file containing the union of the coordinates of each peak from a given sample with all the peaks that overlapped it from the other samples.
+(2) Identified peaks were then merged together if they had less than or equal to 12,500 base pairs between them using `"*Merging_Narrowpeak_within_12.sh*"` script. The script also produces a file containing the union of the coordinates of each peak from a given sample with all the peaks that overlapped it from the other samples.
 
-(3) Quantification of each enriched region was done using programs "*Coverage.sh*" and "*Enhancer_RPM.py*".
+(3) Quantification of each enriched region was done using programs `"*Coverage.sh*"` and `"*Enhancer_RPM.py*"`.
 
-(4) Finally negative binomial distribution was fitted to RPM scores from each sample using "*NB.R*" program. Enriched regions with scores above 97.5 percentile were categorized as "Super Enhancers" and remaining as "Typical Enhancers".
+(4) Finally negative binomial distribution was fitted to RPM scores from each sample using `"*NB.R*"` program. Enriched regions with scores above 97.5 percentile were categorized as "Super Enhancers" and remaining as "Typical Enhancers".
