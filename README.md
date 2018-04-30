@@ -11,7 +11,7 @@ Steps involved in identification of Super Enahncers:
 
 Modifications:
     
-    **Remove all the sites/regions with 3kb of TSS**
+    Remove all the sites/regions with 3kb of TSS
 
 (3) Quantification of each enriched region was done using programs `Coverage.sh` and `Enhancer_RPM.py`.
 
