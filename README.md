@@ -10,7 +10,7 @@ Steps involved in identification of Super Enahncers:
 (2) Identified peaks were then merged together if they had less than or equal to 12,500 base pairs between them using `Merging_Narrowpeak_within_12.sh` script. The script also produces a file containing the union of the coordinates of each peak from a given sample with all the peaks that overlapped it from the other samples.
 
 Modifications:
-    --Remove all the sites/regions with 3kb of TSS.
+    --**Remove all the sites/regions with 3kb of TSS.**
 
 (3) Quantification of each enriched region was done using programs `Coverage.sh` and `Enhancer_RPM.py`.
 
