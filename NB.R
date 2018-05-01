@@ -1,5 +1,5 @@
 ##############################################################################################
-##AUTHOR: Akhilesh Kusahal, Cristian Coarfa
+##AUTHOR: Akhilesh Kaushal, Cristian Coarfa
 ##DATE: April 20 2018
 ##DESCRIPTION: Fits negative binomial distribution to the RPM score and categorizes
 ## RPM score as 0, 1 with scores above 97.5 percentiles as 1 and remaining as 0
