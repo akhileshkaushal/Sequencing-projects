@@ -80,9 +80,6 @@ class RPM_SCORE:
         trackFileList2 = glob.glob(self.myArgs.trackFilePattern2)
         
         
-        """
-            Actual work area using BEDTOOLS
-        """
         for trackFile1, trackFile2 in itertools.izip(trackFileList1, trackFileList2):
             bedfile = trackFile1.split(".")[0]
             dedupfile = trackFile2.split(".")[0]
