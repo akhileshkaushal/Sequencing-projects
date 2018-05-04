@@ -54,5 +54,12 @@ for (i in 1:length(unlist(file_list2))){
   
 }
   
+
+files <- list.files(pattern = "*_NB_wo_zeros.bed")
+
+DF <-  read.table(files[1],header=F,sep="\t")
+for (f in files[-1]) DF <- rbind(DF, read.table(f)) 
+DF1 <- unique(DF)
+write.table(DF1, "All_appended.bed", sep="\t",row.names=FALSE, quote=FALSE)
   
 
