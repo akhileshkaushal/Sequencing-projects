@@ -53,7 +53,8 @@ for (i in 1:length(unlist(file_list2))){
   write.table(data,file=paste(file_path_sans_ext(file_list2[i]),"_NB_wo_zeros.bed"),sep="\t",row.names=F,col.names=F,quote=F)
   
 }
-  
+ 
+Sys.sleep(5)
 
 files <- list.files(pattern = "*_NB_wo_zeros.bed")
 
