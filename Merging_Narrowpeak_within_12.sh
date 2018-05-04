@@ -30,6 +30,6 @@ do echo ${file}; e=$(echo ${file}| cut -f1 -d"."); echo $e; \
 bedtools merge -i ${file} -d 12500 > $e.merged.bed ; done & done
 
 cat *merged.bed > UNION_ALL.bed
-#sort -k1,1 -k2,2n UNION_ALL.bed | bedtools merge -i stdin -d 0 > UNION_ALL_merged.bed
-sort -k1,1 -k2,2n UNION_ALL.bed | uniq -u > UNION_ALL_merged.bed
+sort -k1,1 -k2,2n UNION_ALL.bed | bedtools merge -i stdin -d 0 | uniq -u > UNION_ALL_merged.bed
+#sort -k1,1 -k2,2n UNION_ALL.bed | uniq -u > UNION_ALL_merged.bed
 
