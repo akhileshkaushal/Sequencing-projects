@@ -14,9 +14,9 @@ Modifications:
     Remove all the sites/regions within 3kb of TSS
     Bedtool command to generate the Union of co-ordinate without TSS +/- 3kb
    
-    --bedtools window -a UNION_ALL_merged.bed -b rn5-Gencode79.protein_coding.TSS.bed -w 3000 > UNION_ALL_merged_TSS_3kb.bed_
+    --bedtools window -a UNION_ALL_merged.bed -b rn5-Gencode79.protein_coding.TSS.bed -w 3000 > UNION_ALL_merged_TSS_3kb.bed
      
-    --bedtools subtract -a UNION_ALL_merged.bed -b UNION_ALL_merged_TSS_3kb.bed  -A > UNION_ALL_merged_wo_TSS.bed_
+    --bedtools subtract -a UNION_ALL_merged.bed -b UNION_ALL_merged_TSS_3kb.bed  -A > UNION_ALL_merged_wo_TSS.bed
 
 
 (3) Quantification of each enriched region was done using programs `Coverage.sh` and `Enhancer_RPM.py`.
