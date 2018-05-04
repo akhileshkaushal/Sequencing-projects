@@ -31,7 +31,7 @@ class RPM_SCORE:
     def parse_args():
         parser = argparse.ArgumentParser(description=
          """\
-          Computes the RPM score based upon the information from dedup.bed.gz file generated from\n
+          Computes the RPM score based upon the information from dedup.bed file generated from\n
           "bedToWig.cc.v002.py" program\n
           * Load a number of BED files (usually ChIP-Seq, ATAC-Seq, MeDIP-Seq, Chipmentation, etc)
           * TODO: ...
