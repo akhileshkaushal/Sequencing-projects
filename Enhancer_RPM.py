@@ -37,7 +37,7 @@ class RPM_SCORE:
           * TODO: ...
          """)
        
-        parser.add_argument('-t1','--trackFilePattern1', help='pattern of tracks BED files',required=True)
+        parser.add_argument('-t1','--trackFilePattern1', help='pattern of tracks reads.bed files',required=True)
         parser.add_argument('-t2','--trackFilePattern2', help='pattern of tracks dedup files',required=True)
         #parser.add_argument('-d','--outDir', help='output directory',required=True)
         #parser.add_argument('-o','--outfile', help='[OPTIONAL] output file name for overlap summary',required=None)
