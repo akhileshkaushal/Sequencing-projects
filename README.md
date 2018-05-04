@@ -10,9 +10,9 @@ Steps involved in identification of Super Enahncers:
 (2) Identified peaks were then merged together if they had less than or equal to 12,500 base pairs between them using `Merging_Narrowpeak_within_12.sh` script. The script also produces a file containing the union of the coordinates of each peak from a given sample with all the peaks that overlapped it from the other samples.
 
 Modifications:
-    
-    Remove all the sites/regions within 3kb of TSS
-    Bedtool command to generate the Union of co-ordinate without TSS +/- 3kb
+Remove all the sites/regions within 3kb of TSS
+     
+     Bedtool command to generate the Union of co-ordinate without TSS +/- 3kb
    
     --bedtools window -a UNION_ALL_merged.bed -b rn5-Gencode79.protein_coding.TSS.bed -w 3000 > UNION_ALL_merged_TSS_3kb.bed
      
