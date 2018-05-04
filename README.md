@@ -13,9 +13,9 @@ Modifications:
     
     Remove all the sites/regions within 3kb of TSS
     
-   _**bedtools window -a UNION_ALL_merged.bed -b rn5-Gencode79.protein_coding.TSS.bed -w 3000 > UNION_ALL_merged_TSS_3kb.bed**_
+   _bedtools window -a UNION_ALL_merged.bed -b rn5-Gencode79.protein_coding.TSS.bed -w 3000 > UNION_ALL_merged_TSS_3kb.bed_
      
-   _**bedtools subtract -a UNION_ALL_merged.bed -b UNION_ALL_merged_TSS_3kb.bed  -A > UNION_ALL_merged_wo_TSS.bed**_
+   _bedtools subtract -a UNION_ALL_merged.bed -b UNION_ALL_merged_TSS_3kb.bed  -A > UNION_ALL_merged_wo_TSS.bed_
 
 
 (3) Quantification of each enriched region was done using programs `Coverage.sh` and `Enhancer_RPM.py`.
