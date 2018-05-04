@@ -24,4 +24,4 @@ split -l 1 list.beds list.beds.1way
 
 for g in list.beds.1waya?; do echo $g; \
 for file in $(cat $g); do echo ${file}; e=$(echo ${file}| cut -f1 -d"."); \
-echo $e;   bedtools coverage -a UNION_ALL_merged.bed -b ${file} -counts  > $e.reads.bed ; done & done
+echo $e;   bedtools coverage -a UNION_ALL_merged_wo_TSS.bed -b ${file} -counts  > $e.reads.bed ; done & done
