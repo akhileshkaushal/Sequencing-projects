@@ -9,8 +9,8 @@ Steps involved in identification of Super Enahncers:
 
 (2) Identified peaks were then merged together if they had less than or equal to 12,500 base pairs between them using `Merging_Narrowpeak_within_12.sh` script. The script also produces a file containing the union of the coordinates of each peak from a given sample with all the peaks that overlapped it from the other samples.
 
-Modifications:
-Remove all the sites/regions within 3kb of TSS
+_*Modifications:
+Remove all the sites/regions within 3kb of TSS*_
      
      Bedtool command to generate the Union of co-ordinate without TSS +/- 3kb
    
