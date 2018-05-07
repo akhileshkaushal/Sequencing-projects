@@ -3,7 +3,7 @@ Enhancer sequences are regulatory DNA sequences that, when bound by specific pro
 
 Super Enhancer identification in this project is based upon the method described in _**McKeown MR, Corces MR, Eaton ML, Fiore C, Lee E, Lopez JT, Chen MW, Smith D, Chan SM, Koenig JL et al: Superenhancer Analysis Defines Novel Epigenomic Subtypes of Non-APL AML, Including an RARalpha Dependency Targetable by SY-1425, a Potent and Selective RARalpha Agonist. Cancer Discov 2017, 7(10):1136-1153**_.
 
-#### Steps involved in identification of Super Enahncers:
+### Steps involved in identification of Super Enhancers:
 
 (1) Using `MACS2.py` to call peaks genome-wide in the aligned H3K27Ac read data using the aligned IP bed file as the ChIP-seq foreground and the aligned IN bed file (if available) as the control background data. FDR cutoff of 0.01 was used to call the peaks.
 
