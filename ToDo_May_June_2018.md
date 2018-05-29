@@ -1,7 +1,7 @@
 
-## To Do list:
+# To Do list:
 
-# (1) PI: Pavlos
+## (1) PI: Pavlos
 
 Recieved tables summarizing the differential expression (for protein-coding RNA and non-protein-coding RNA) of RMC tissues from 11 patients with RMC tumors (n=11 samples) vs adjacent normal controls (n=6 samples). These 11 patients include the 4 patients (RMC2, RMC4, RMC30, RMC31) we analyzed with H3K27me3 ChIP-seq. If needed, I can give you the FPKM values for the individual samples.
 
