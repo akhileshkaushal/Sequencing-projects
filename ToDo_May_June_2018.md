@@ -12,4 +12,4 @@ Pending analyses for the project per today’s discussion: (Task list)
    - [ ] 2) Determine which genes have H3K27me3 peaks or not (yes vs. no) in each of the samples. If yes, is it on the promoter    region,   gene body or elsewhere? (as we discussed, this can be done as part of the integration with the RNAseq data) 
    - [ ] 3) Make a figure with epigenomic partition distribution of H3K27me3 in RMC tumor and normal tissues using fetal kidney from the epigenomics roadmap as the template
    - [ ] 4) Perform H3K27me3 motif analysis for tumor vs normal using HOMER
-   - [x] 5) Compare our H3K27me3 tumor vs normal peaks in RMC with the MRT tumor vs normal peaks from the TARGET database (this will be done after we have access to that database)
+   - [ ] 5) Compare our H3K27me3 tumor vs normal peaks in RMC with the MRT tumor vs normal peaks from the TARGET database (this will be done after we have access to that database)
