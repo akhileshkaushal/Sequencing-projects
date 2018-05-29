@@ -18,7 +18,7 @@ Pending analyses for the project per today’s discussion: (Task list)
 ## (2) PI: Charles Foulds
    - [ ] Rerun the samtosignal pipeline with proper names for the file (e.g. include the GSM number as one of the identifiers in filenames. 
 
-**Note: Inspect the sam.gz file before executing this pipeline. If the file contains string like chr1,chr2,etc. then do not use the -a flag of the pipeline.
+**Note:** Inspect the sam.gz file before executing this pipeline. If the file contains string like chr1,chr2,etc. then do not use the -a flag of the pipeline.
     
  ## (3) PI: Tiffany Katz (Prof. Walker and Prof. Coarfa)
  Received the RNA-seq and Chip-Seq data from Md Anderson. Need to discuss with Prof. Coarfa regarding the future analysis.
