@@ -26,6 +26,7 @@ Pending analyses for the project per today’s discussion: (Task list)
  ## (4) PI: Pavlos
  
  Map the RNA-Seq from Pavlos, generate BED files, then score the eRNa using the RNA-seq pipeline.
+ Chip-Seq files were mapped to hg19.
  
  ## (5) Enhancers
  
