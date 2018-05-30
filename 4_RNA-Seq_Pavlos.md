@@ -3,11 +3,11 @@ RNA-seq data is paired end. By Visualising top three lines of paired file we con
 
 **(1) Read Trimming using TrimGalore**
 
-    for k in $(ls *gz|cut -f1,1 -d"."|sort -u) 
+    for k in $(ls *_1.fq.gz|cut -f1,1 -d"."|sort -u) 
         do 
             echo $k 
             ls -latrh ${k}
-            submitTrimGalore.cc.py -f ${k}.fastq.gz -q dque -c PBS -o ${k} -O trim.${k}.fastq.gz
+            submitTrimGalore.cc.py -f ${k}_1.fq.gz -F ${k}_2.fq.gz -q dque -c PBS -o ${k} -O trim.${k}.fastq.gz
      done 
 
 Submitted this job using shell script "submitTrimGalore.sh" <br />
