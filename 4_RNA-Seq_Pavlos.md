@@ -10,7 +10,7 @@ RNA-seq data is paired end. By Visualising top three lines of paired file (Sugge
             submitTrimGalore.cc.py -f ${k}_1.fq.gz -F ${k}_2.fq.gz -q dque -c PBS -o ${k} -O trim.${k}.fastq.gz
      done 
 
-Submitted this job using shell script "submitTrimGalore.sh" <br />
+Submitted this job using shell script "submitTrimGalore_RNA_Seq_paired.sh" <br />
 
 Steps:<br />
   -- Get to directory containing only the fastq.gz <br />
