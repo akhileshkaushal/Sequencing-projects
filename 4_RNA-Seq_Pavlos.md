@@ -12,9 +12,9 @@ RNA-seq data is paired end. By Visualising top three lines of paired file (Sugge
 
 Submitted this job using shell script "submitTrimGalore.sh" <br />
 
-Steps:
-  -- Get to directory containing only the fastq.gz
-  -- Execute the shell script "submitTrimGalore.sh"
+Steps:<br />
+  -- Get to directory containing only the fastq.gz <br />
+  -- Execute the shell script "submitTrimGalore.sh" <br />
 
 **(2) Paired end mapping using HISAT2 and StringTie/FeatureCounts**
 
