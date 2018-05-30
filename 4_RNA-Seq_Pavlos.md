@@ -1,5 +1,5 @@
 
-**(1) Read Trimming using TrimGalore
+** (1) Read Trimming using TrimGalore
 
 for k in $(ls *gz|cut -f1,1 -d"."|sort -u)
   do 
@@ -14,7 +14,7 @@ Steps:
   -- Get to directory containing only the fastq.gz
   -- Execute the shell script "submitTrimGalore.sh"
 
-**(2) Paired end mapping using HISAT2 and StringTie/FeatureCounts
+** (2) Paired end mapping using HISAT2 and StringTie/FeatureCounts
 
 for f in $(ls *gz|cut -f1,2 -d"."|sort -u)
 do 
