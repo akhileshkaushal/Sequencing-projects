@@ -23,5 +23,15 @@ Pending analyses for the project per today’s discussion: (Task list)
  ## (3) PI: Tiffany Katz (Prof. Walker and Prof. Coarfa)
  Received the RNA-seq and Chip-Seq data from Md Anderson. Need to discuss with Prof. Coarfa regarding the future analysis.
  
+ ## (4) PI: Pavlos
+ 
+ Map the RNA-Seq from Pavlos, generate BED files, then score the eRNa using the RNA-seq pipeline.
+ 
+ ## (5) Enhancers
+ 
+ Similarly, score eRNAs using the mm10 data for Fantom enhancers.
+ 
+ 
+ 
  ## eRNA and Super-Enhancer:
  Need to discuss with Prof. Coarfa regarding the future analysis incorporating Target and Encode data along with mice chip-seq data from Prof. Walker
