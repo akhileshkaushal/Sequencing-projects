@@ -14,7 +14,7 @@ Submitted this job using shell script "submitTrimGalore_RNA_Seq_paired.sh" <br /
 
 Steps:<br />
   -- Get to directory containing only the fastq.gz <br />
-  -- Execute the shell script "submitTrimGalore.sh" <br />
+  -- Execute the shell script "submitTrimGalore_RNA_Seq_paired.sh" <br />
 
 **(2) Paired end mapping using HISAT2 and StringTie/FeatureCounts**
 
