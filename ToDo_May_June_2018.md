@@ -23,7 +23,7 @@ Pending analyses for the project per today’s discussion: (Task list)
  ## (3) PI: Tiffany Katz (Prof. Walker and Prof. Coarfa)
  Received the RNA-seq and Chip-Seq data from Md Anderson. Need to discuss with Prof. Coarfa regarding the future analysis.
  
- ## (4) PI: Pavlos
+ ## (4) [PI: Pavlos] (https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/4_RNA-Seq_Pavlos.md)
  
  Map the RNA-Seq from Pavlos, generate BED files, then score the eRNa using the RNA-seq pipeline.
  Chip-Seq files were mapped to hg19.
