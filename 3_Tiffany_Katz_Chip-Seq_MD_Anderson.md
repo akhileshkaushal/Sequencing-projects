@@ -1,7 +1,6 @@
 
 # 1. Read Trimming
-   
-   for k in $(ls *gz|cut -f1,1 -d"."|sort -u)
+    for k in $(ls *gz|cut -f1,1 -d"."|sort -u)
        do 
           echo $k
           ls -latrh ${k}
