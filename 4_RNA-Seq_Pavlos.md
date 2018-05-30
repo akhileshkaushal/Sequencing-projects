@@ -3,7 +3,7 @@ RNA-seq data is paired end. By Visualising top three lines of paired file (Sugge
 
 **(1) Read Trimming using TrimGalore**
 
-    for k in $(ls *_1.fq.gz|cut -f1,1 -d"."|sort -u) 
+    for k in $(ls *_1.fq.gz|cut -f1,1 -d"_"|sort -u) 
         do 
             echo $k 
             ls -latrh ${k}
