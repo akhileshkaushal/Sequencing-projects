@@ -20,7 +20,7 @@ Pending analyses for the project per today’s discussion: (Task list)
 
 **Note:** Inspect the sam.gz file before executing this pipeline. If the file contains string like chr1,chr2,etc. then do not use the **-a** flag of the pipeline.
     
- ## (3) PI: Tiffany Katz (Prof. Walker and Prof. Coarfa)
+ ## (3) [PI: Tiffany Katz (Prof. Walker and Prof. Coarfa)](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/3_Tiffany_Katz_Chip-Seq_MD_Anderson.md)
  Received the RNA-seq and Chip-Seq data from Md Anderson. Need to discuss with Prof. Coarfa regarding the future analysis.
  
  ### (4) [PI: Pavlos](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/4_RNA-Seq_Pavlos.md)
