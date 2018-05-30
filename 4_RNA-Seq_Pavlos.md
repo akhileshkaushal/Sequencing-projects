@@ -2,9 +2,9 @@
 **(1) Read Trimming using TrimGalore**
 
 for k in $(ls *gz|cut -f1,1 -d"."|sort -u) <br />
-  &nbsp;&nbsp do <br />
-    &nbsp;&nbsp echo $k <br />
-     &nbsp;&nbsp;&nbsp ls -latrh ${k} <br />
+  &nbsp;&nbsp; do <br />
+    &nbsp;&nbsp; echo $k <br />
+     &nbsp;&nbsp;&nbsp; ls -latrh ${k} <br />
     submitTrimGalore.cc.py -f ${k}.fastq.gz -q dque -c PBS -o ${k} -O trim.${k}.fastq.gz
 Done
 
