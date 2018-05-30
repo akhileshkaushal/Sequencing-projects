@@ -9,6 +9,6 @@
 
 Submitted this job using shell script "submitTrimGalore.sh"
 
-Steps:
-  -- Get to directory containing only the fastq.gz
-  -- Execute the shell script "submitTrimGalore.sh"
+Steps:<br />
+  -- Get to directory containing only the fastq.gz <br />
+  -- Execute the shell script "submitTrimGalore.sh" <br />
