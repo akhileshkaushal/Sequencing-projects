@@ -1,5 +1,5 @@
 
-RNA-seq data is paired end. By Visualising top three lines of paired file we conlcuded that RNA-seq data is paired end read.
+RNA-seq data is paired end. By Visualising top three lines of paired file (Suggested by Prof. Coarfa) we conlcuded that RNA-seq data is paired end read.
 
 **(1) Read Trimming using TrimGalore**
 
