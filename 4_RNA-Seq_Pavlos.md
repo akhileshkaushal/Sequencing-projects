@@ -18,7 +18,7 @@ Steps:<br />
 
 **(2) Paired end mapping using HISAT2 and StringTie/FeatureCounts**
 
-    for f in $(ls *gz|cut -f1,4 -d"."|sort -u)
+    for f in $(ls *gz|cut -f1,2 -d"."|sort -u)
         do 
             echo $f
             ls -latrh ${f}.R1.fastq.gz ${f}.R2.fastq.gz
