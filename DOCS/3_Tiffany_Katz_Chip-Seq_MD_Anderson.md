@@ -21,3 +21,6 @@ Steps:<br />
            submitBowtie2Job.py  -G /store1_d/modac/data/bowtie2/mm10/mm10 -f $f -t 2 -q dque -c \
            PBS -x $TMPDIR -o b2map-$e &> log.submit.$e.txt ; 
         done
+
+## 3. Converting SAM.GZ to BED.GZ format
+      
