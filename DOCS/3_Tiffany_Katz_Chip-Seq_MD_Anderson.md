@@ -24,3 +24,9 @@ Steps:<br />
 
 ## 3. Converting SAM.GZ to BED.GZ format
       
+     for f in *sam.gz; 
+         do echo $g; 
+            e=$(basename $f|sed -e 's/bowtie2map.trim.//' sed -e 's/.fastq.gz.fastq.gz.sam.gz//'); echo $e;  
+            convertSamToBed.cc.py -s $f \
+            -m BOWTIE2 -o $e.bed.gz &> log.samToBed &
+         done
