@@ -39,3 +39,9 @@ Steps:<br />
      Treatment.signal -t Treatment -d "Treatment, 200bp extension, de-dup" \
      -c 255,0,0 -C mm10.chr10.chromosomes -r &> log.mm10.bedToWig
 Above python script is encapsulated in "Python_PBS_for_bedToWig.cc.py" and then used "wig_to_tdf.py"
+         
+        python Python_PBS_for_bedToWig.cc.py -d $PWD -t "$PWD/temp" -c "/store1_d/modac/akaushal/mm10/mm10.txt"
+        
+        python wig_to_tdf.py  -d "$PWD" -g mm10
+
+
