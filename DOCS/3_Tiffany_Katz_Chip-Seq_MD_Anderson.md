@@ -18,6 +18,6 @@ Steps:<br />
     for f in *fastq.gz; 
         do echo $g; 
            e=$(basename $f|sed -e 's/.fastq.gz//'); echo $e;  
-           submitBowtie2Job.py  -G ~/modac/data/bowtie2/mm10/mm10 -f $f -t 2 -q dque -c \
+           submitBowtie2Job.py  -G /store1_d/modac/data/bowtie2/mm10/mm10 -f $f -t 2 -q dque -c \
            PBS -x $TMPDIR -o b2map-$e &> log.submit.$e.txt ; 
         done
