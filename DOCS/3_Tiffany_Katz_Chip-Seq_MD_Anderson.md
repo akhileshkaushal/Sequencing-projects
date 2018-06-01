@@ -29,3 +29,7 @@ Steps:<br />
             e=$(basename $f|sed -e 's/bowtie2map.trim.//' sed -e 's/.fastq.gz.fastq.gz.sam.gz//'); echo $e;  
             convertSamToBed.cc.py -s $f -m BOWTIE2 -o $e.bed.gz &> log.samToBed;
          done
+         
+   ## OR
+   
+   python PBS_convertSamtoBed.cc.py -d "$PWD"
