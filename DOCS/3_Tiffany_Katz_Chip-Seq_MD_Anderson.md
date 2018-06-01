@@ -35,3 +35,5 @@ Steps:<br />
     
  ## 4. Signal generation
 
+     bedToWig.cc.py -b Treatment.chr10.bed.gz -x ${TMPDIR} -e 200 -u -o Treatment.signal -t Treatment -d "Treatment, 200bp extension, de-dup" -c 255,0,0 -C mm10.chr10.chromosomes -r &> log.mm10.bedToWig
+Above python script is encapsulated in "Python_PBS_for_bedToWig.cc.py"
