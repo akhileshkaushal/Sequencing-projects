@@ -32,4 +32,4 @@ Steps:<br />
          
    ## OR
    
-   python PBS_convertSamtoBed.cc.py -d "$PWD"
+    python PBS_convertSamtoBed.cc.py -d "$PWD"
