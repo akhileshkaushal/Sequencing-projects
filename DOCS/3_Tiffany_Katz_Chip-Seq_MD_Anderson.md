@@ -12,3 +12,12 @@ Submitted this job using shell script "submitTrimGalore.sh"
 Steps:<br />
   -- Get to directory containing only the fastq.gz <br />
   -- Execute the shell script "submitTrimGalore.sh" <br />
+
+## 2. Mapping with BOWTIE2
+
+    for f in *fastq.gz; 
+        do echo $g; 
+           e=$(basename $f|sed -e 's/.fastq.gz//'); echo $e;  
+           submitBowtie2Job.py  -G ~/modac/data/bowtie2/mm10/mm10 -f $f -t 2 -q dque -c \
+           PBS -x $TMPDIR -o b2map-$e &> log.submit.$e.txt ; 
+        done
