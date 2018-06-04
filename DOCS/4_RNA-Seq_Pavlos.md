@@ -42,5 +42,4 @@ Steps:<br />
    
    submitSamToSignal.cc.py was wrapped inside PBS_submitSamToSignal.cc.py and was executed using
        
-       PBS_submitSamToSignal.cc.py -d "$PWD" -m HISAT -c /store1_d/modac/data/hisat2/hg19/hg19.chromosomes \
-       -g hg19 -x rna-seq
+       PBS_submitSamToSignal.cc.py -d "$PWD" -m HISAT -c /store1_d/modac/data/hisat2/hg19/hg19.chromosomes -g hg19 -x rna-seq
