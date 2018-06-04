@@ -45,4 +45,4 @@ Steps:<br />
        
        Python_PBS_for_bedToWig.cc.py -d $PWD -t "$PWD/temp" -c "/store1_d/modac/data/hisat2/hg19/hg19.chromosomes"
         
-       wig_to_tdf.py  -d "$PWD" -g mm10
+       wig_to_tdf.py  -d "$PWD" -g hg19
