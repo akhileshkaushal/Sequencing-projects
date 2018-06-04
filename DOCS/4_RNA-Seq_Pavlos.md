@@ -36,6 +36,4 @@ Steps:<br />
        # prepare a configuration file
        for f in rnamap.*Abun*; do echo $f; done > conf-on-hg19
        # combine gene profile abundance from StringTie (FPKM) and featureCounts (read counts)
-       combineCocktailGeneAbundance.cc.py -q conf-on-hg19  \ 
-    -g /store1_d/modac/data/hisat2/hg19/Gencode.V24.on.hg19.hisat2.chr.gtf \ 
-    -o combined-rnaseq-Sample1_Sample2 &> log.txt
+       combineCocktailGeneAbundance.cc.py -q conf-on-hg19  -g /store1_d/modac/data/hisat2/hg19/Gencode.V24.on.hg19.hisat2.chr.gtf -o combined-rnaseq-Sample1_Sample2 &> log.txt
