@@ -39,6 +39,7 @@ Steps:<br />
        combineCocktailGeneAbundance.cc.py -q conf-on-hg19  -g /store1_d/modac/data/hisat2/hg19/Gencode.V24.on.hg19.hisat2.chr.gtf -o combined-rnaseq-Sample1_Sample2 &> log.txt
 
 **(4) Generating Signal Maps**
+   
    submitSamToSignal.cc.py was wrapped inside PBS_submitSamToSignal.cc.py and was executed using
        
        PBS_submitSamToSignal.cc.py -d "$PWD" -m HISAT -c /store1_d/modac/data/hisat2/hg19/hg19.chromosomes \
