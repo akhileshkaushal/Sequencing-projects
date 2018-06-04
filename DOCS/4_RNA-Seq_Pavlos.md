@@ -42,6 +42,7 @@ Steps:<br />
    
    submitSamToSignal.cc.py was wrapped inside PBS_submitSamToSignal.cc.py and was executed using
        
+       python PBS_convertSamtoBed.cc.py -d "$PWD"
        
        Python_PBS_for_bedToWig.cc.py -d $PWD -t "$PWD/temp" -c "/store1_d/modac/data/hisat2/hg19/hg19.chromosomes"
         
