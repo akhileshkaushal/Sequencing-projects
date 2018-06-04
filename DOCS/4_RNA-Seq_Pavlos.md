@@ -27,6 +27,9 @@ Steps:<br />
             -b /store1_d/modac/data/hisat2/hg19/genome  \ 
             -t 2 -q dque -c PBS -o rnamap.${f}
         done
+        
+**Quality COntrol Report:
+     
 
 **(3) Combining gene abundance data**
 
