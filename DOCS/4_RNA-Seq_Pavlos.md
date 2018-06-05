@@ -28,7 +28,7 @@ Steps:<br />
             -t 2 -q dque -c PBS -o rnamap.${f}
         done
         
-**[Quality Control Report](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/DOCS/QC.txt)
+##[Quality Control Report](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/DOCS/QC.txt)
      
 
 **(3) Combining gene abundance data**
