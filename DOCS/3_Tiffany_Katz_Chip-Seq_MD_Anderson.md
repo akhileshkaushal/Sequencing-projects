@@ -50,7 +50,7 @@ ________________________________________________________________________________
 
 # RNA-Seq
 
-## 1. Read Trimming
+## 1. Read Trimming using TrimGalore
 
       for k in $(ls *_R1_001.fastq.gz|cut -f1,2,3 -d"_"|sort -u) 
           do 
@@ -60,4 +60,6 @@ ________________________________________________________________________________
       done
     
 
-## 2. Mapping with HISAT2
+## 2. Mapping with HISAT2 and Stringtie/FeatureCounts
+
+
