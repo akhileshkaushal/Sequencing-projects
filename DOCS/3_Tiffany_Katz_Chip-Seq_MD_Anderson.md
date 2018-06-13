@@ -52,4 +52,12 @@ ________________________________________________________________________________
 
 ## 1. Read Trimming
 
+      for k in $(ls *_R1_001.fastq.gz|cut -f1,2,3 -d"_"|sort -u) 
+          do 
+              echo $k 
+              ls -latrh ${k}
+              submitTrimGalore.cc.py -f ${k}_R1_001.fastq.gz -F ${k}_R2_001.fastq.gz -q dque -c PBS -o ${k} -O trim.${k}
+      done
+    
+
 ## 2. Mapping with HISAT2
