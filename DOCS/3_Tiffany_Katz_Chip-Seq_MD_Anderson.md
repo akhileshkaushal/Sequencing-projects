@@ -62,4 +62,13 @@ ________________________________________________________________________________
 
 ## 2. Mapping with HISAT2 and Stringtie/FeatureCounts
 
+      for f in $(ls *gz|cut -f1,2 -d"."|sort -u)
+          do 
+             echo $f
+             ls -latrh ${f}.R1.fastq.gz ${f}.R2.fastq.gz  
+             submitHISAT2.cc.py -f ${f}.R1.fastq.gz -F  ${f}.R2.fastq.gz   \ 
+             -G /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf   \ 
+             -b /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/genome_snp_tran  \
+             -t 2 -q dque -c PBS -o rnamap.${f}
+       done
 
