@@ -1,0 +1,588 @@
+rnamap.trim.10M10T_S5_L006.hisat2/log.rnamap.trim.10M10T_S5_L006.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:06:19
+46372353 reads; of these:
+  46372353 (100.00%) were paired; of these:
+    4714647 (10.17%) aligned concordantly 0 times
+    34733577 (74.90%) aligned concordantly exactly 1 time
+    6924129 (14.93%) aligned concordantly >1 times
+    ----
+    4714647 pairs aligned concordantly 0 times; of these:
+      686145 (14.55%) aligned discordantly 1 time
+    ----
+    4028502 pairs aligned 0 times concordantly or discordantly; of these:
+      8057004 mates make up the pairs; of these:
+        5497953 (68.24%) aligned 0 times
+        1898179 (23.56%) aligned exactly 1 time
+        660872 (8.20%) aligned >1 times
+94.07% overall alignment rate
+Time searching: 01:06:21
+Overall time: 01:06:29
+rnamap.trim.11M10T_S27_L008.hisat2/log.rnamap.trim.11M10T_S27_L008.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:52:41
+37719999 reads; of these:
+  37719999 (100.00%) were paired; of these:
+    3617587 (9.59%) aligned concordantly 0 times
+    29973483 (79.46%) aligned concordantly exactly 1 time
+    4128929 (10.95%) aligned concordantly >1 times
+    ----
+    3617587 pairs aligned concordantly 0 times; of these:
+      687552 (19.01%) aligned discordantly 1 time
+    ----
+    2930035 pairs aligned 0 times concordantly or discordantly; of these:
+      5860070 mates make up the pairs; of these:
+        3825657 (65.28%) aligned 0 times
+        1573395 (26.85%) aligned exactly 1 time
+        461018 (7.87%) aligned >1 times
+94.93% overall alignment rate
+Time searching: 00:52:42
+Overall time: 00:52:50
+rnamap.trim.12M10T_S28_L008.hisat2/log.rnamap.trim.12M10T_S28_L008.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:53:45
+39129632 reads; of these:
+  39129632 (100.00%) were paired; of these:
+    3501018 (8.95%) aligned concordantly 0 times
+    30103083 (76.93%) aligned concordantly exactly 1 time
+    5525531 (14.12%) aligned concordantly >1 times
+    ----
+    3501018 pairs aligned concordantly 0 times; of these:
+      503218 (14.37%) aligned discordantly 1 time
+    ----
+    2997800 pairs aligned 0 times concordantly or discordantly; of these:
+      5995600 mates make up the pairs; of these:
+        4059842 (67.71%) aligned 0 times
+        1460266 (24.36%) aligned exactly 1 time
+        475492 (7.93%) aligned >1 times
+94.81% overall alignment rate
+Time searching: 00:53:45
+Overall time: 00:53:53
+rnamap.trim.1F10T_S15_L007.hisat2/log.rnamap.trim.1F10T_S15_L007.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:02:58
+44250861 reads; of these:
+  44250861 (100.00%) were paired; of these:
+    4494652 (10.16%) aligned concordantly 0 times
+    35042304 (79.19%) aligned concordantly exactly 1 time
+    4713905 (10.65%) aligned concordantly >1 times
+    ----
+    4494652 pairs aligned concordantly 0 times; of these:
+      774398 (17.23%) aligned discordantly 1 time
+    ----
+    3720254 pairs aligned 0 times concordantly or discordantly; of these:
+      7440508 mates make up the pairs; of these:
+        4891615 (65.74%) aligned 0 times
+        1995204 (26.82%) aligned exactly 1 time
+        553689 (7.44%) aligned >1 times
+94.47% overall alignment rate
+Time searching: 01:02:59
+Overall time: 01:03:07
+rnamap.trim.1M10T_S26_L008.hisat2/log.rnamap.trim.1M10T_S26_L008.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:01
+Multiseed full-index search: 00:55:34
+40358276 reads; of these:
+  40358276 (100.00%) were paired; of these:
+    3957621 (9.81%) aligned concordantly 0 times
+    32060920 (79.44%) aligned concordantly exactly 1 time
+    4339735 (10.75%) aligned concordantly >1 times
+    ----
+    3957621 pairs aligned concordantly 0 times; of these:
+      632891 (15.99%) aligned discordantly 1 time
+    ----
+    3324730 pairs aligned 0 times concordantly or discordantly; of these:
+      6649460 mates make up the pairs; of these:
+        4587272 (68.99%) aligned 0 times
+        1609824 (24.21%) aligned exactly 1 time
+        452364 (6.80%) aligned >1 times
+94.32% overall alignment rate
+Time searching: 00:55:35
+Overall time: 00:55:43
+rnamap.trim.1M10V_S2_L006.hisat2/log.rnamap.trim.1M10V_S2_L006.hisat2.txt
+Time loading forward index: 00:00:06
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:08:09
+42286877 reads; of these:
+  42286877 (100.00%) were paired; of these:
+    3393287 (8.02%) aligned concordantly 0 times
+    31585066 (74.69%) aligned concordantly exactly 1 time
+    7308524 (17.28%) aligned concordantly >1 times
+    ----
+    3393287 pairs aligned concordantly 0 times; of these:
+      262817 (7.75%) aligned discordantly 1 time
+    ----
+    3130470 pairs aligned 0 times concordantly or discordantly; of these:
+      6260940 mates make up the pairs; of these:
+        4623727 (73.85%) aligned 0 times
+        1270157 (20.29%) aligned exactly 1 time
+        367056 (5.86%) aligned >1 times
+94.53% overall alignment rate
+Time searching: 01:08:09
+Overall time: 01:08:22
+rnamap.trim.2F10T_S18_L007.hisat2/log.rnamap.trim.2F10T_S18_L007.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:59:34
+41942964 reads; of these:
+  41942964 (100.00%) were paired; of these:
+    4640599 (11.06%) aligned concordantly 0 times
+    33164020 (79.07%) aligned concordantly exactly 1 time
+    4138345 (9.87%) aligned concordantly >1 times
+    ----
+    4640599 pairs aligned concordantly 0 times; of these:
+      799093 (17.22%) aligned discordantly 1 time
+    ----
+    3841506 pairs aligned 0 times concordantly or discordantly; of these:
+      7683012 mates make up the pairs; of these:
+        5063768 (65.91%) aligned 0 times
+        2098173 (27.31%) aligned exactly 1 time
+        521071 (6.78%) aligned >1 times
+93.96% overall alignment rate
+Time searching: 00:59:35
+Overall time: 00:59:43
+rnamap.trim.2F10V_S21_L008.hisat2/log.rnamap.trim.2F10V_S21_L008.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:01
+Multiseed full-index search: 00:56:11
+40540921 reads; of these:
+  40540921 (100.00%) were paired; of these:
+    3838972 (9.47%) aligned concordantly 0 times
+    32399209 (79.92%) aligned concordantly exactly 1 time
+    4302740 (10.61%) aligned concordantly >1 times
+    ----
+    3838972 pairs aligned concordantly 0 times; of these:
+      719325 (18.74%) aligned discordantly 1 time
+    ----
+    3119647 pairs aligned 0 times concordantly or discordantly; of these:
+      6239294 mates make up the pairs; of these:
+        4091721 (65.58%) aligned 0 times
+        1677321 (26.88%) aligned exactly 1 time
+        470252 (7.54%) aligned >1 times
+94.95% overall alignment rate
+Time searching: 00:56:12
+Overall time: 00:56:20
+rnamap.trim.2M10T_S3_L006.hisat2/log.rnamap.trim.2M10T_S3_L006.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:09:25
+48436399 reads; of these:
+  48436399 (100.00%) were paired; of these:
+    4471285 (9.23%) aligned concordantly 0 times
+    35576033 (73.45%) aligned concordantly exactly 1 time
+    8389081 (17.32%) aligned concordantly >1 times
+    ----
+    4471285 pairs aligned concordantly 0 times; of these:
+      418969 (9.37%) aligned discordantly 1 time
+    ----
+    4052316 pairs aligned 0 times concordantly or discordantly; of these:
+      8104632 mates make up the pairs; of these:
+        5927625 (73.14%) aligned 0 times
+        1631731 (20.13%) aligned exactly 1 time
+        545276 (6.73%) aligned >1 times
+93.88% overall alignment rate
+Time searching: 01:09:25
+Overall time: 01:09:33
+rnamap.trim.2M10V_S11_L007.hisat2/log.rnamap.trim.2M10V_S11_L007.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:14:48
+49894389 reads; of these:
+  49894389 (100.00%) were paired; of these:
+    4732590 (9.49%) aligned concordantly 0 times
+    35578543 (71.31%) aligned concordantly exactly 1 time
+    9583256 (19.21%) aligned concordantly >1 times
+    ----
+    4732590 pairs aligned concordantly 0 times; of these:
+      429164 (9.07%) aligned discordantly 1 time
+    ----
+    4303426 pairs aligned 0 times concordantly or discordantly; of these:
+      8606852 mates make up the pairs; of these:
+        5971741 (69.38%) aligned 0 times
+        1924291 (22.36%) aligned exactly 1 time
+        710820 (8.26%) aligned >1 times
+94.02% overall alignment rate
+Time searching: 01:14:48
+Overall time: 01:14:56
+rnamap.trim.3F10T_S17_L007.hisat2/log.rnamap.trim.3F10T_S17_L007.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:02:47
+45014058 reads; of these:
+  45014058 (100.00%) were paired; of these:
+    5610732 (12.46%) aligned concordantly 0 times
+    34827646 (77.37%) aligned concordantly exactly 1 time
+    4575680 (10.17%) aligned concordantly >1 times
+    ----
+    5610732 pairs aligned concordantly 0 times; of these:
+      823168 (14.67%) aligned discordantly 1 time
+    ----
+    4787564 pairs aligned 0 times concordantly or discordantly; of these:
+      9575128 mates make up the pairs; of these:
+        6664084 (69.60%) aligned 0 times
+        2336796 (24.40%) aligned exactly 1 time
+        574248 (6.00%) aligned >1 times
+92.60% overall alignment rate
+Time searching: 01:02:48
+Overall time: 01:02:57
+rnamap.trim.3F10V_S23_L008.hisat2/log.rnamap.trim.3F10V_S23_L008.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:01
+Multiseed full-index search: 00:52:57
+38667111 reads; of these:
+  38667111 (100.00%) were paired; of these:
+    3606018 (9.33%) aligned concordantly 0 times
+    30784163 (79.61%) aligned concordantly exactly 1 time
+    4276930 (11.06%) aligned concordantly >1 times
+    ----
+    3606018 pairs aligned concordantly 0 times; of these:
+      552613 (15.32%) aligned discordantly 1 time
+    ----
+    3053405 pairs aligned 0 times concordantly or discordantly; of these:
+      6106810 mates make up the pairs; of these:
+        4188489 (68.59%) aligned 0 times
+        1512592 (24.77%) aligned exactly 1 time
+        405729 (6.64%) aligned >1 times
+94.58% overall alignment rate
+Time searching: 00:52:58
+Overall time: 00:53:06
+rnamap.trim.3M10T_S20_L008.hisat2/log.rnamap.trim.3M10T_S20_L008.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:54:31
+34788041 reads; of these:
+  34788041 (100.00%) were paired; of these:
+    3827431 (11.00%) aligned concordantly 0 times
+    26514717 (76.22%) aligned concordantly exactly 1 time
+    4445893 (12.78%) aligned concordantly >1 times
+    ----
+    3827431 pairs aligned concordantly 0 times; of these:
+      452335 (11.82%) aligned discordantly 1 time
+    ----
+    3375096 pairs aligned 0 times concordantly or discordantly; of these:
+      6750192 mates make up the pairs; of these:
+        4951547 (73.35%) aligned 0 times
+        1428064 (21.16%) aligned exactly 1 time
+        370581 (5.49%) aligned >1 times
+92.88% overall alignment rate
+Time searching: 00:54:31
+Overall time: 00:54:40
+rnamap.trim.4F10T_S16_L007.hisat2/log.rnamap.trim.4F10T_S16_L007.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:04:30
+45621605 reads; of these:
+  45621605 (100.00%) were paired; of these:
+    5055238 (11.08%) aligned concordantly 0 times
+    35841760 (78.56%) aligned concordantly exactly 1 time
+    4724607 (10.36%) aligned concordantly >1 times
+    ----
+    5055238 pairs aligned concordantly 0 times; of these:
+      699060 (13.83%) aligned discordantly 1 time
+    ----
+    4356178 pairs aligned 0 times concordantly or discordantly; of these:
+      8712356 mates make up the pairs; of these:
+        6118335 (70.23%) aligned 0 times
+        2088209 (23.97%) aligned exactly 1 time
+        505812 (5.81%) aligned >1 times
+93.29% overall alignment rate
+Time searching: 01:04:30
+Overall time: 01:04:39
+rnamap.trim.4F10V_S10_L007.hisat2/log.rnamap.trim.4F10V_S10_L007.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:10:47
+44065365 reads; of these:
+  44065365 (100.00%) were paired; of these:
+    3984817 (9.04%) aligned concordantly 0 times
+    34508553 (78.31%) aligned concordantly exactly 1 time
+    5571995 (12.64%) aligned concordantly >1 times
+    ----
+    3984817 pairs aligned concordantly 0 times; of these:
+      289505 (7.27%) aligned discordantly 1 time
+    ----
+    3695312 pairs aligned 0 times concordantly or discordantly; of these:
+      7390624 mates make up the pairs; of these:
+        5596323 (75.72%) aligned 0 times
+        1484642 (20.09%) aligned exactly 1 time
+        309659 (4.19%) aligned >1 times
+93.65% overall alignment rate
+Time searching: 01:10:48
+Overall time: 01:10:56
+rnamap.trim.4M10T_S4_L006.hisat2/log.rnamap.trim.4M10T_S4_L006.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:01
+Multiseed full-index search: 01:00:45
+41026763 reads; of these:
+  41026763 (100.00%) were paired; of these:
+    4048404 (9.87%) aligned concordantly 0 times
+    30627512 (74.65%) aligned concordantly exactly 1 time
+    6350847 (15.48%) aligned concordantly >1 times
+    ----
+    4048404 pairs aligned concordantly 0 times; of these:
+      623259 (15.40%) aligned discordantly 1 time
+    ----
+    3425145 pairs aligned 0 times concordantly or discordantly; of these:
+      6850290 mates make up the pairs; of these:
+        4563503 (66.62%) aligned 0 times
+        1676676 (24.48%) aligned exactly 1 time
+        610111 (8.91%) aligned >1 times
+94.44% overall alignment rate
+Time searching: 01:00:46
+Overall time: 01:00:54
+rnamap.trim.4M10V_S8_L006.hisat2/log.rnamap.trim.4M10V_S8_L006.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:09:08
+47361105 reads; of these:
+  47361105 (100.00%) were paired; of these:
+    5036518 (10.63%) aligned concordantly 0 times
+    34372301 (72.57%) aligned concordantly exactly 1 time
+    7952286 (16.79%) aligned concordantly >1 times
+    ----
+    5036518 pairs aligned concordantly 0 times; of these:
+      686060 (13.62%) aligned discordantly 1 time
+    ----
+    4350458 pairs aligned 0 times concordantly or discordantly; of these:
+      8700916 mates make up the pairs; of these:
+        5815166 (66.83%) aligned 0 times
+        2097214 (24.10%) aligned exactly 1 time
+        788536 (9.06%) aligned >1 times
+93.86% overall alignment rate
+Time searching: 01:09:08
+Overall time: 01:09:17
+rnamap.trim.5F10T_S14_L007.hisat2/log.rnamap.trim.5F10T_S14_L007.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:01
+Multiseed full-index search: 01:06:57
+46602153 reads; of these:
+  46602153 (100.00%) were paired; of these:
+    4736382 (10.16%) aligned concordantly 0 times
+    37061876 (79.53%) aligned concordantly exactly 1 time
+    4803895 (10.31%) aligned concordantly >1 times
+    ----
+    4736382 pairs aligned concordantly 0 times; of these:
+      673150 (14.21%) aligned discordantly 1 time
+    ----
+    4063232 pairs aligned 0 times concordantly or discordantly; of these:
+      8126464 mates make up the pairs; of these:
+        5600444 (68.92%) aligned 0 times
+        2021335 (24.87%) aligned exactly 1 time
+        504685 (6.21%) aligned >1 times
+93.99% overall alignment rate
+Time searching: 01:06:58
+Overall time: 01:07:06
+rnamap.trim.5F10V_S25_L008.hisat2/log.rnamap.trim.5F10V_S25_L008.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:50:42
+36945443 reads; of these:
+  36945443 (100.00%) were paired; of these:
+    4103678 (11.11%) aligned concordantly 0 times
+    28817600 (78.00%) aligned concordantly exactly 1 time
+    4024165 (10.89%) aligned concordantly >1 times
+    ----
+    4103678 pairs aligned concordantly 0 times; of these:
+      599084 (14.60%) aligned discordantly 1 time
+    ----
+    3504594 pairs aligned 0 times concordantly or discordantly; of these:
+      7009188 mates make up the pairs; of these:
+        4948523 (70.60%) aligned 0 times
+        1638111 (23.37%) aligned exactly 1 time
+        422554 (6.03%) aligned >1 times
+93.30% overall alignment rate
+Time searching: 00:50:44
+Overall time: 00:50:52
+rnamap.trim.5M10T_S19_L008.hisat2/log.rnamap.trim.5M10T_S19_L008.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:53:49
+38637647 reads; of these:
+  38637647 (100.00%) were paired; of these:
+    2870952 (7.43%) aligned concordantly 0 times
+    30988759 (80.20%) aligned concordantly exactly 1 time
+    4777936 (12.37%) aligned concordantly >1 times
+    ----
+    2870952 pairs aligned concordantly 0 times; of these:
+      192099 (6.69%) aligned discordantly 1 time
+    ----
+    2678853 pairs aligned 0 times concordantly or discordantly; of these:
+      5357706 mates make up the pairs; of these:
+        3986468 (74.41%) aligned 0 times
+        1108914 (20.70%) aligned exactly 1 time
+        262324 (4.90%) aligned >1 times
+94.84% overall alignment rate
+Time searching: 00:53:51
+Overall time: 00:53:59
+rnamap.trim.5M10V_S7_L006.hisat2/log.rnamap.trim.5M10V_S7_L006.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:00:33
+43116884 reads; of these:
+  43116884 (100.00%) were paired; of these:
+    4251037 (9.86%) aligned concordantly 0 times
+    32659789 (75.75%) aligned concordantly exactly 1 time
+    6206058 (14.39%) aligned concordantly >1 times
+    ----
+    4251037 pairs aligned concordantly 0 times; of these:
+      605823 (14.25%) aligned discordantly 1 time
+    ----
+    3645214 pairs aligned 0 times concordantly or discordantly; of these:
+      7290428 mates make up the pairs; of these:
+        4929006 (67.61%) aligned 0 times
+        1766151 (24.23%) aligned exactly 1 time
+        595271 (8.17%) aligned >1 times
+94.28% overall alignment rate
+Time searching: 01:00:34
+Overall time: 01:00:42
+rnamap.trim.6F10V_S12_L007.hisat2/log.rnamap.trim.6F10V_S12_L007.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:58:07
+37348760 reads; of these:
+  37348760 (100.00%) were paired; of these:
+    4056005 (10.86%) aligned concordantly 0 times
+    29423862 (78.78%) aligned concordantly exactly 1 time
+    3868893 (10.36%) aligned concordantly >1 times
+    ----
+    4056005 pairs aligned concordantly 0 times; of these:
+      518551 (12.78%) aligned discordantly 1 time
+    ----
+    3537454 pairs aligned 0 times concordantly or discordantly; of these:
+      7074908 mates make up the pairs; of these:
+        5037430 (71.20%) aligned 0 times
+        1668753 (23.59%) aligned exactly 1 time
+        368725 (5.21%) aligned >1 times
+93.26% overall alignment rate
+Time searching: 00:58:08
+Overall time: 00:58:16
+rnamap.trim.6M10T_S24_L008.hisat2/log.rnamap.trim.6M10T_S24_L008.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:55:48
+38685572 reads; of these:
+  38685572 (100.00%) were paired; of these:
+    3700531 (9.57%) aligned concordantly 0 times
+    30059084 (77.70%) aligned concordantly exactly 1 time
+    4925957 (12.73%) aligned concordantly >1 times
+    ----
+    3700531 pairs aligned concordantly 0 times; of these:
+      613623 (16.58%) aligned discordantly 1 time
+    ----
+    3086908 pairs aligned 0 times concordantly or discordantly; of these:
+      6173816 mates make up the pairs; of these:
+        4114262 (66.64%) aligned 0 times
+        1557645 (25.23%) aligned exactly 1 time
+        501909 (8.13%) aligned >1 times
+94.68% overall alignment rate
+Time searching: 00:55:48
+Overall time: 00:55:56
+rnamap.trim.6M10V_S13_L007.hisat2/log.rnamap.trim.6M10V_S13_L007.hisat2.txt
+Time loading forward index: 00:00:03
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:02:56
+43061188 reads; of these:
+  43061188 (100.00%) were paired; of these:
+    4480171 (10.40%) aligned concordantly 0 times
+    31978884 (74.26%) aligned concordantly exactly 1 time
+    6602133 (15.33%) aligned concordantly >1 times
+    ----
+    4480171 pairs aligned concordantly 0 times; of these:
+      604497 (13.49%) aligned discordantly 1 time
+    ----
+    3875674 pairs aligned 0 times concordantly or discordantly; of these:
+      7751348 mates make up the pairs; of these:
+        5180553 (66.83%) aligned 0 times
+        1909991 (24.64%) aligned exactly 1 time
+        660804 (8.53%) aligned >1 times
+93.98% overall alignment rate
+Time searching: 01:02:57
+Overall time: 01:03:05
+rnamap.trim.7M10T_S22_L008.hisat2/log.rnamap.trim.7M10T_S22_L008.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 00:54:40
+35404423 reads; of these:
+  35404423 (100.00%) were paired; of these:
+    3871164 (10.93%) aligned concordantly 0 times
+    26922789 (76.04%) aligned concordantly exactly 1 time
+    4610470 (13.02%) aligned concordantly >1 times
+    ----
+    3871164 pairs aligned concordantly 0 times; of these:
+      557782 (14.41%) aligned discordantly 1 time
+    ----
+    3313382 pairs aligned 0 times concordantly or discordantly; of these:
+      6626764 mates make up the pairs; of these:
+        4610104 (69.57%) aligned 0 times
+        1552420 (23.43%) aligned exactly 1 time
+        464240 (7.01%) aligned >1 times
+93.49% overall alignment rate
+Time searching: 00:54:41
+Overall time: 00:54:49
+rnamap.trim.7M10V_S9_L006.hisat2/log.rnamap.trim.7M10V_S9_L006.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:07:58
+41487221 reads; of these:
+  41487221 (100.00%) were paired; of these:
+    4493748 (10.83%) aligned concordantly 0 times
+    30289926 (73.01%) aligned concordantly exactly 1 time
+    6703547 (16.16%) aligned concordantly >1 times
+    ----
+    4493748 pairs aligned concordantly 0 times; of these:
+      627159 (13.96%) aligned discordantly 1 time
+    ----
+    3866589 pairs aligned 0 times concordantly or discordantly; of these:
+      7733178 mates make up the pairs; of these:
+        5295441 (68.48%) aligned 0 times
+        1791942 (23.17%) aligned exactly 1 time
+        645795 (8.35%) aligned >1 times
+93.62% overall alignment rate
+Time searching: 01:08:00
+Overall time: 01:08:08
+rnamap.trim.8M10T_S6_L006.hisat2/log.rnamap.trim.8M10T_S6_L006.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:06:25
+44964756 reads; of these:
+  44964756 (100.00%) were paired; of these:
+    4421681 (9.83%) aligned concordantly 0 times
+    32550383 (72.39%) aligned concordantly exactly 1 time
+    7992692 (17.78%) aligned concordantly >1 times
+    ----
+    4421681 pairs aligned concordantly 0 times; of these:
+      637367 (14.41%) aligned discordantly 1 time
+    ----
+    3784314 pairs aligned 0 times concordantly or discordantly; of these:
+      7568628 mates make up the pairs; of these:
+        5003577 (66.11%) aligned 0 times
+        1832127 (24.21%) aligned exactly 1 time
+        732924 (9.68%) aligned >1 times
+94.44% overall alignment rate
+Time searching: 01:06:26
+Overall time: 01:06:34
+rnamap.trim.9M10T_S1_L006.hisat2/log.rnamap.trim.9M10T_S1_L006.hisat2.txt
+Time loading forward index: 00:00:02
+Time loading reference: 00:00:00
+Multiseed full-index search: 01:13:28
+50744884 reads; of these:
+  50744884 (100.00%) were paired; of these:
+    4192371 (8.26%) aligned concordantly 0 times
+    38611115 (76.09%) aligned concordantly exactly 1 time
+    7941398 (15.65%) aligned concordantly >1 times
+    ----
+    4192371 pairs aligned concordantly 0 times; of these:
+      389811 (9.30%) aligned discordantly 1 time
+    ----
+    3802560 pairs aligned 0 times concordantly or discordantly; of these:
+      7605120 mates make up the pairs; of these:
+        5492982 (72.23%) aligned 0 times
+        1630946 (21.45%) aligned exactly 1 time
+        481192 (6.33%) aligned >1 times
+94.59% overall alignment rate
+Time searching: 01:13:28
+Overall time: 01:13:36
