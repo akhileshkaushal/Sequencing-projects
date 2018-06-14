@@ -64,3 +64,4 @@ ________________________________________________________________________________
 
       for k in $(ls *gz|cut -f1,2 -d"."|sort -u);do echo $k;ls -latrh ${k}.R1.fastq.gz ${k}.R2.fastq.gz;submitHISAT2.cc.py -f ${k}.R1.fastq.gz -F ${k}.R2.fastq.gz -G /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf -b /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/genome_snp_tran -t 2 -q dque -c PBS -o rnamap.${k};done
 
+[Quality Control](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/DOCS/QC_Mouse_RNA-seq.txt)
