@@ -58,5 +58,5 @@ http://fantom.gsc.riken.jp/5/datafiles/phase2.0/extra/Enhancers/
 
 (2) Use the script submitERNA.cc.py encapsulated in 
      
-       for f in *.bed.gz;do echo $f;e=$(basename $f|sed -e 's/.bed.gz//'); echo $e;submitERNA.cc.py -r $f -e /store1_d/modac/akaushal/Pavlos_RNA_seq_May30_2018/TRIMGALORE_OUTPUT/SAMFILES/Fantom_Enhancers/human_permissive_enhancers_phase_1_and_2.bed -o eRNAs-PBS.$e -C /store1_d/modac/akaushal/Pavlos_RNA_seq_May30_2018/TRIMGALORE_OUTPUT/SAMFILES/Fantom_Enhancers/hg19.chrom.sizes -p 2 -q longjob -c PBS &> log.eRNA-PBS.$e.txt;done
+    for f in *.bed.gz;do echo $f;e=$(basename $f|sed -e 's/.bed.gz//'); echo $e;submitERNA.cc.py -r $f -e /store1_d/modac/akaushal/Pavlos_RNA_seq_May30_2018/TRIMGALORE_OUTPUT/SAMFILES/Fantom_Enhancers/human_permissive_enhancers_phase_1_and_2.bed -o eRNAs-PBS.$e -C /store1_d/modac/akaushal/Pavlos_RNA_seq_May30_2018/TRIMGALORE_OUTPUT/SAMFILES/Fantom_Enhancers/hg19.chrom.sizes -p 2 -q longjob -c PBS &> log.eRNA-PBS.$e.txt;done
     
