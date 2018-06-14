@@ -47,3 +47,16 @@ Steps:<br />
        Python_PBS_for_bedToWig.cc.py -d $PWD -t "$PWD/temp" -c "/store1_d/modac/data/hisat2/hg19/hg19.chromosomes"
         
        wig_to_tdf.py  -d "$PWD" -g hg19
+
+____________________________________________________________________________________________________________________________
+
+## Enhancer RNA
+
+(1) Downloaded FANTOM enhancer from
+
+http://fantom.gsc.riken.jp/5/datafiles/phase2.0/extra/Enhancers/
+
+(2) Use the script submitERNA.cc.py encapsulated in 
+     
+       for f in *.bed.gz;do echo $f;e=$(basename $f|sed -e 's/.bed.gz//'); echo $e;submitERNA.cc.py -r $f -e /store1_d/modac/akaushal/Pavlos_RNA_seq_May30_2018/TRIMGALORE_OUTPUT/SAMFILES/Fantom_Enhancers/human_permissive_enhancers_phase_1_and_2.bed -o eRNAs-PBS.$e -C /store1_d/modac/akaushal/Pavlos_RNA_seq_May30_2018/TRIMGALORE_OUTPUT/SAMFILES/Fantom_Enhancers/hg19.chrom.sizes -p 2 -q longjob -c PBS &> log.eRNA-PBS.$e.txt;done
+    
