@@ -37,4 +37,4 @@ Pending analyses for the project per today’s discussion: (Task list)
  ## eRNA and Super-Enhancer:
  Need to discuss with Prof. Coarfa regarding the future analysis incorporating Target and Encode data along with mice chip-seq data from Prof. Walker
  
- ## (6) [PI: Elferink]
+ ## (6) [PI: Elferink](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/DOCS/Elferink.md)
