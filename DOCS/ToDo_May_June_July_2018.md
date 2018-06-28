@@ -32,9 +32,11 @@ Pending analyses for the project per today’s discussion: (Task list)
  
  Similarly, score eRNAs using the mm10 data for Fantom enhancers.
  
- 
- 
  ## eRNA and Super-Enhancer:
  Need to discuss with Prof. Coarfa regarding the future analysis incorporating Target and Encode data along with mice chip-seq data from Prof. Walker
  
  ## (6) [PI: Elferink](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/DOCS/Elferink.md)
+ 
+ ## (7) Cytolitic activity score in our TBT data
+ 
+ Cytolitic activity score as geometric mean of TPM score of two genes GZMA and PRF1
