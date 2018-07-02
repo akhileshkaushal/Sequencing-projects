@@ -2,12 +2,12 @@
 
 # Chip-Seq
 ## 1. Read Trimming
-    for k in $(ls *gz|cut -f1,1 -d"."|sort -u)
-       do 
-          echo $k
-          ls -latrh ${k}
-          submitTrimGalore.cc.py -f ${k}.fastq.gz -q dque -c PBS -o ${k} -O trim.${k}.fastq.gz
-    done
+    for k in $(ls *_1.fq.gz|cut -f1,1 -d"_"|sort -u) 
+    do 
+        echo $k 
+        ls -latrh ${k}
+        submitTrimGalore.cc.py -f ${k}_1.fq.gz -F ${k}_2.fq.gz -q dque -c PBS -o ${k} -O trim.${k}.fastq.gz
+ done 
 
 Submitted this job using shell script "submitTrimGalore1.sh"
 
@@ -15,14 +15,17 @@ Steps:<br />
   -- Get to directory containing only the fastq.gz <br />
   -- Execute the shell script "submitTrimGalore1.sh" <br />
 
-## 2. Mapping with BOWTIE2
+## 2. Mapping with HISAT2
 
-    for f in *fastq.gz; 
-        do echo $g; 
-           e=$(basename $f|sed -e 's/.fastq.gz//'); echo $e;  
-           submitBowtie2Job.py  -G /store1_d/modac/data/bowtie2/mm10/mm10 -f $f -t 2 -q dque -c \
-           PBS -x $TMPDIR -o b2map-$e &> log.submit.$e.txt ; 
-        done
+    for f in $(ls *gz|cut -f1,2 -d"."|sort -u)
+    do 
+        echo $f
+        ls -latrh ${f}.R1.fastq.gz ${f}.R2.fastq.gz
+        submitHISAT2.cc.py -f ${f}.R1.fastq.gz -F  ${f}.R2.fastq.gz  \ 
+        -G /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf \ 
+        -b /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/genome_snp_tran  \ 
+        -t 2 -q dque -c PBS -o rnamap.${f}
+    done
 
 ## 3. Converting SAM.GZ to BED.GZ format
       
