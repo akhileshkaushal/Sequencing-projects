@@ -1,6 +1,6 @@
 
 
-# Chip-Seq
+# Chip-Seq (Paired-End)
 ## 1. Read Trimming
     for k in $(ls *_1.fq.gz|cut -f1,1 -d"_"|sort -u) 
     do 
