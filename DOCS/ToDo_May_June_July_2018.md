@@ -42,8 +42,8 @@ Pending analyses for the project per today’s discussion: (Task list)
  Cytolitic activity score as geometric mean of TPM score of two genes GZMA and PRF1
  
  ## (8) PI: Lindsey (Prof. Walker and Prof. Coarfa)
-   -[ ] 1) Heatmap for active TSS with 4me1 ( from ChromHMM). Produce heatmap for differential and non-differentials.
-   -[ ] 2) Homer for H3K4me1 peaks:
+    -[ ] 1) Heatmap for active TSS with 4me1 ( from ChromHMM). Produce heatmap for differential and non-differentials.
+    -[ ] 2) Homer for H3K4me1 peaks:
            (a) Differential peak at D5
            (b) Differential peak at D70
            (c) Persistent peaks
