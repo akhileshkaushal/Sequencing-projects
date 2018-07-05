@@ -15,7 +15,7 @@ Pending analyses for the project per today’s discussion: (Task list)
    - [ ] 5) Compare our H3K27me3 tumor vs normal peaks in RMC with the MRT tumor vs normal peaks from the TARGET database (this will be done after we have access to that database)
 
 
-## (2) PI: Charles Foulds
+## (2) PI: Charles Foulds (PPAR-gamma from public data)
    - [x] Rerun the samtosignal pipeline with proper names for the file (e.g. include the GSM number as one of the identifiers in filenames. 
 
 **Note:** Inspect the sam.gz file before executing this pipeline. If the file contains string like chr1,chr2,etc. then do not use the **-a** flag of the pipeline.
