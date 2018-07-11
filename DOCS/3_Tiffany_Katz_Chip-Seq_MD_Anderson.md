@@ -1,5 +1,5 @@
 
-# Chip-Seq
+# Chip-Seq (DEHP,Pb, HighBPA, LowBPA)
 ## 1. Read Trimming
     for k in $(ls *gz|cut -f1,1 -d"."|sort -u)
        do 
@@ -48,7 +48,7 @@ Above python script is encapsulated in "Python_PBS_for_bedToWig.cc.py" and then 
 ________________________________________________________________________________________________________________________________
 ________________________________________________________________________________________________________________________________
 
-# RNA-Seq
+# RNA-Seq (10 months Adenoma)
 
 ## 1. Read Trimming using TrimGalore
 
