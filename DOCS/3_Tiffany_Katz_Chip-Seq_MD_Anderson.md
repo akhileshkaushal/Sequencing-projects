@@ -70,5 +70,5 @@ ________________________________________________________________________________
       # prepare a configuration file
       for f in rnamap.trim.*Abun*; do echo $f; done > conf-on-mm10
       # combine gene profile abundance from StringTie (FPKM) and featureCounts (read counts)
-      combineCocktailGeneAbundance.cc.py -q conf-on-mm10  -g /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf  -o combined-rnaseq-Sample1_Sample2 &> log.txt
+      combineCocktailGeneAbundance.cc.py -q conf-on-mm10  -g /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf  -o combined-rnaseq-10months &> log.txt
 
