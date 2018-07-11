@@ -65,3 +65,10 @@ ________________________________________________________________________________
       for k in $(ls *gz|cut -f1,2 -d"."|sort -u);do echo $k;ls -latrh ${k}.R1.fastq.gz ${k}.R2.fastq.gz;submitHISAT2.cc.py -f ${k}.R1.fastq.gz -F ${k}.R2.fastq.gz -G /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf -b /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/genome_snp_tran -t 2 -q dque -c PBS -o rnamap.${k};done
 
 ## [Quality Control](https://github.com/CoarfaBCM/Akhilesh_Projects/blob/master/DOCS/QC_Mouse_RNA-seq.txt)
+
+## 3. Combining gene abundance data
+      # prepare a configuration file
+      for f in rnamap.1m.Sample_*Abun*; do echo $f; done > conf-on-mm10
+      # combine gene profile abundance from StringTie (FPKM) and featureCounts (read counts)
+      combineCocktailGeneAbundance.cc.py -q conf-on-mm10  -g /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf  -o combined-rnaseq-Sample1_Sample2 &> log.txt
+
