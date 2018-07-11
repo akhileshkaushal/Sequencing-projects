@@ -72,3 +72,12 @@ ________________________________________________________________________________
       # combine gene profile abundance from StringTie (FPKM) and featureCounts (read counts)
       combineCocktailGeneAbundance.cc.py -q conf-on-mm10  -g /store1_d/modac/data/hisat2/mm10_snp_tran_ercc/Mus_musculus.GRCm38.90.gtf  -o combined-rnaseq-10months &> log.txt
 
+## 4. Generating signal maps (WIG, TDF)
+
+     Will do this later for 10 months (adenoma data)
+     I do not have FASTQ files for 3wk and 5mo
+     
+## 5. Pathway Enrichment (ORA - over representation analysis)
+
+     
+  
