@@ -79,5 +79,10 @@ ________________________________________________________________________________
      
 ## 5. Pathway Enrichment (ORA - over representation analysis)
 
+# ATAC-seq
+
+## 1. Read Trimming
+## 2. Paired End Mapping with BOWTIE2
+
      
   
